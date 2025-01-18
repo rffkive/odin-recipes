@@ -3,9 +3,19 @@ body {
 }
 
 .button {
+    display: inline-block;
     background-color: green;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none; /* Removes underline */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
   }
-  
+
+  .title {
+    text-align: center;
+  }
